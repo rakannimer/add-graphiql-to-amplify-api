@@ -1,0 +1,28 @@
+{
+  "name": "add-graphiql-to-amplify-api",
+  "version": "0.1.0",
+  "description": "Add a Graphiql web app to your Amplify project",
+  "bin": {
+    "add-graphiql-to-amplify-api": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "graphiql": "npx parcel ./graphiql/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rakan Nimer",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.0",
+    "parse-gitignore": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "url": "git+https://github.com/rakannimer/add-graphiql-to-amplify-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rakannimer/add-graphiql-to-amplify-api/issues"
+  },
+  "homepage": "https://github.com/rakannimer/add-graphiql-to-amplify-api#readme"
+}
