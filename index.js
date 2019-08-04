@@ -97,7 +97,7 @@ const main = async () => {
     ...currentPackage,
     scripts: {
       ...currentPackage.scripts,
-      graphiql: `npx parcel ${formattedOutPath}index.html`
+      graphiql: `npx parcel ${formattedOutPath}index.html -p 1235`
     }
   };
   fs.writeFileSync(packageJsonPath, JSON.stringify(newPackage, null, 2));
